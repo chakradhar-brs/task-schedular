@@ -1,0 +1,53 @@
+input[type="text"] {
+    border: 2px solid #70791e;
+    border-radius: 6px;
+    padding: 5px;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #d3e62b;
+    height: 50vh; /* Set the height to 100% of the viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  h3, input, button, #output {
+    color: #164b0c;
+    margin-bottom: 15px; /* Add some spacing between elements */
+  }
+  
+  #intervalsInput, #submit #output {
+    text-align: center; /* Center text within input and button */
+  }
+  
+  #intervalsInput {
+    width: 300px; /* Set a specific width for the input field */
+  }
+  
+  #submit {
+   cursor: pointer;
+   background-color: #28A745;
+   border-color: 2px solid black;
+   color: #fff;
+   border: none;
+   cursor: pointer;
+   font-size: 16px;
+   border-radius: 5px;
+   outline: 1px solid green;
+  }
+  
+  #submit:hover {
+  background-color: #218838;
+  }
+  
+  #output {
+  height: 20px;
+  width: 400px;
+  outline: 1px solid black;
+  text-align: center;
+  padding: 10px;
+  }
+  
